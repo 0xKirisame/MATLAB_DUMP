@@ -6,5 +6,5 @@ plot(t, x)
 grid on
 
 xlabel('Time t')
-ylabel('Amplitude x(t)')
-title('Real part of x(t) = 3e^{-0.1t}cos(2t + \pi/4)')
+ylabel('x(t)')
+title('x(t) = 3e^{-0.1t}cos(2t + \pi/4)')
