@@ -1,5 +1,5 @@
 t = 0:0.01:10;
-x = exp(-2*t) .* heaviside(t); % heaviside requires the math toolbox addon
+x = exp(-2*t) .* heaviside(t); % heaviside requires the math toolbox addons
 h = heaviside(t);
 
 y = conv(x, h) * 0.01;
