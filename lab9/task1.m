@@ -9,7 +9,7 @@ L = simplify(L)
 n = [1 -1];
 d = [1 3 2];
 H = tf(n,d);
-Wigure
+figure
 pzmap(H)
 
 % part 2
@@ -23,6 +23,5 @@ L = simplify(L)
 n = [2 5 12];
 d = [1 4 14 20];
 H = tf(n,d);
-Figure
-5
+figure
 pzmap(H)
